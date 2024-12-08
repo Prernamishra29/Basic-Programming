@@ -9,4 +9,11 @@ function isPrime(num) {
   
   // Export the function
   module.exports = isPrime;
+  // Function to check if a number is even or odd
+function evenOdd(num) {
+    return num % 2 === 0; // True if even, false if odd
+  }
+  
+  // Export the new function
+  module.exports = { isPrime, evenOdd };
   
